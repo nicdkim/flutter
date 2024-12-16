@@ -1,4 +1,7 @@
 
+import 'package:chap06_permission_handler/permission/01_contact_page.dart';
+import 'package:chap06_permission_handler/permission/02_camera_page.dart';
+import 'package:chap06_permission_handler/permission/Question.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,7 +31,12 @@ class MyHomePage extends StatelessWidget {
       ),
       body:
       // 전화번호 관련 권한 받기
-      ContactsPage(),
+      // ContactsPage(),
+
+      // 카메라 관련 권한 받기
+      CameraPermissionPage(),
+
+      // Question(),
     );
   }
 }
